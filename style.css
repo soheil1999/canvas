@@ -1,0 +1,10 @@
+		*{
+			padding : 0;
+			margin  : 0px;
+		}
+
+		#mc{
+			border   : 1px solid gray;
+			margin: 300px;
+			
+		}

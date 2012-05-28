@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+</body>
+<canvas width="900" height="600" id="mc">
+	how dare you use IE 8 or less you sucker?use chrome/mozilla firefox/safari/opera. understood you idiot or you need your --- to be ------?
+</canvas>
+<script type="text/javascript">
+	document.body.style.backgroundColor = "#666";
+	var mc = document.getElementById('mc');
+	mc.style.backgroundColor = "#888";
+	var ctx = mc.getContext('2d');
+	ctx.beginPath();
+	ctx.moveTo(200,100);
+	ctx.lineTo(800,100);
+	ctx.lineTo(800,500);
+	ctx.lineTo(200,500);
+	ctx.closePath();
+	ctx.fillStyle = "rgba(0, 0, 200, 0.5)"; 
+	ctx.fill();
+	//--------------
+	ctx.beginPath();
+	ctx.fillRect(90,90,360,360); 
+	ctx.closePath();
+	ctx.fillStyle ='red';
+	ctx.fill();
+
+</script>
+
+
+
+
+</html>

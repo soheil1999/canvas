@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+</body>
+<canvas width="900" height="600" id="mc">
+	how dare you use IE 8 or less you sucker?use chrome/mozilla firefox/safari/opera. understood you idiot or you need your --- to be ------?
+</canvas>
+<script type="text/javascript">
+	document.body.style.backgroundColor = "#666";
+	var mc = document.getElementById('mc');
+	mc.style.backgroundColor = "#888";
+	var ctx = mc.getContext('2d');
+	ctx.beginPath();
+	ctx.arc(300,300,200,0, Math.PI*2, true);
+
+	ctx.closePath();
+	ctx.fillStyle = 'yellow'
+	ctx.fill(); 
+	//----
+	ctx.beginPath();
+	ctx.arc(75,75,35,0,Math.PI*2,true); 
+	ctx.closePath();
+	ctx.strokeStyle = 'white';
+	ctx.stroke();
+
+</script>
+
+
+
+
+</html>
