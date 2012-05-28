@@ -16,7 +16,7 @@
 	ctx.arc(300,300,200,0, Math.PI*2, true);
 
 	ctx.closePath();
-	ctx.fillStyle = 'yellow'
+	ctx.fillStyle = "rgba(255 , 255, 0, 0.5)"; 
 	ctx.fill(); 
 	//----
 	ctx.beginPath();
@@ -24,6 +24,9 @@
 	ctx.closePath();
 	ctx.strokeStyle = 'white';
 	ctx.stroke();
+	//-----end of circle play. lets play image!
+	var img = new Image();
+	img.src = 'flower.jpg';
 
 </script>
 
